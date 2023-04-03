@@ -12,7 +12,7 @@ body {
 }
 
 #hero-wrapper {
-    background-image: url(/src/background.png);
+    background-image: url(./background.png);
     background-size: cover;
     background-position: center;
     height: 1024px;
