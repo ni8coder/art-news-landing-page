@@ -68,6 +68,7 @@ h1 {
     line-height: 62px;
     color: #FFFFFF;
     margin: 0;
+    max-width: 314px;
 }
 
 #header-section {
@@ -82,9 +83,10 @@ h1 {
     font-weight: 500;
     line-height: 30px;
     color: #FFFFFF;
+    max-width: 314px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 744px) {
     h1 {
         max-width: 600px;
         font-size: 70px;
@@ -97,7 +99,7 @@ h1 {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1440px) {
     h1 {
         max-width: 748px;
         font-size: 80px;
@@ -126,7 +128,7 @@ h1 {
     border-radius: 10px;
 }
 
-#news-title {
+#news-section-title {
     width: 100%;
     font-family: "Inter", sans-serif;
     font-size: 24px;
@@ -136,27 +138,29 @@ h1 {
     margin: 78px 0;
 }
 
-@media screen and (min-width: 600px) {
-    #news-title {
+@media screen and (min-width: 744px) {
+    #news-section-title {
         margin: 89px auto 56px;
-        max-width: 744px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
     }
 }
 
-@media screen and (min-width: 992px) {
-    #news-title {
+@media screen and (min-width: 1440px) {
+    #news-section-title {
         margin: 89px auto 44px;
-        max-width: 1440px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
     }
 }
 
 
 
 #news-card-wrapper {
-    margin: 0 auto;
-    padding: 0 32px;
+    margin: 0 32px;
     margin-bottom: 43px;
-    max-width: 375px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -165,17 +169,16 @@ h1 {
     gap: 32px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 744px) {
     #news-card-wrapper {
+        margin: 0 72px;
         gap: 20px;
-        max-width: 744px;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1440px) {
     #news-card-wrapper {
         gap: 20px;
-        max-width: 1440px;
     }
 }
 
@@ -185,7 +188,7 @@ h1 {
     flex-basis: 100%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 744px) {
     .news-card {
         flex-basis: calc((100% - 48px) / 3);
     }
@@ -193,7 +196,7 @@ h1 {
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 744px) {
 
 }
 
@@ -212,7 +215,7 @@ h1 {
     justify-content: space-between;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 744px) {
     .text-wrapper {
         height: 296px;
     }
@@ -232,7 +235,7 @@ h1 {
     color: #000000
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 744px) {
     .news-title {
         font-size: 15px;
         font-weight: 700;
@@ -247,7 +250,7 @@ h1 {
     
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1440px) {
     .news-title {
         font-size: 25px;
         line-height: 30px;
